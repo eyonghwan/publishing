@@ -1,0 +1,39 @@
+#container {
+    border:  1px solid ;
+}
+h1{
+    color: dodgerblue;
+}
+h1 + p{
+    background-color: magenta;
+}
+span {
+    color: forestgreen;
+}
+.java {
+    color: seagreen; border: deepskyblue 2px solid;
+}
+.java > h2 {
+    color: mediumvioletred;
+}
+.java > p {
+    color: greenyellow;
+}
+.python {
+    color: tomato; border: gainsboro 2px solid;
+}
+.python > p {
+    color: grey;
+}
+.python > h2 {
+    color: mediumaquamarine;
+}
+.cpp {
+    color :mediumaquamarine; border: gold 2px solid;
+}
+.cpp > h2 {
+    color: mediumblue;
+}
+.cpp > p{
+    color: khaki;
+}
